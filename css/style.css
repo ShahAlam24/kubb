@@ -1,0 +1,606 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+ol, ul{
+    list-style-type: none;
+
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+.img{
+    vertical-align: middle;
+}
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+    
+}
+.clr{
+    clear: both;
+}
+/* Common css end */
+
+
+
+/* Header css start */
+#menu-part{
+    width: 100%;
+    padding: 33px 0;
+    background: rgb(0, 0, 0, .44);
+    top: 0;
+    left: 0;
+    content: '';
+    position: absolute;
+
+
+}
+.menu-cont{
+    display: flex;
+    flex-wrap: wrap;
+}
+.logo{
+    width: 120px;
+    float: left;
+}
+.main-menu{
+    width: 880px;
+    float: left;
+}
+.main-menu ul{
+    display: flex;
+    justify-content: right;
+}
+.main-menu ul li{
+    padding-right: 44px;
+}
+.main-menu ul li:last-child{
+    padding-right: 0;
+    margin-right: 25px;
+}
+.main-menu ul li a{
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    color: #f5f5f5;
+    text-transform: uppercase;
+    transition: all linear .3s;
+}
+.main-menu ul li a:hover{
+    color: #28b8d8;
+}
+.menu-social{
+    width: 170px;
+    position: relative;
+    text-align: right;
+    float: left;
+}
+.menu-social a{
+    margin-left: 25px;
+    color:#fff;
+    transition: all linear .3s;
+}
+.menu-social a::after{
+    position: absolute;
+    top: -5px;
+    left: 0;
+    content: '';
+    height: 30px;
+    width: 1px;
+    background: rgb(255, 255, 255, .15);
+}
+.menu-social a:hover{
+    color: #28b8d8;
+}
+/* Header css end */
+
+/* Banner css start */
+#banner-part{
+    width: 100% !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: cover !important;
+    background-attachment: fixed !important;
+    padding: 240px 0 250px 0 !important;
+    text-align: center;
+ 
+}
+.banner-text h1{
+    font-size: 50px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+}
+.banner-text h4{
+    font-size: 40px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    color: #fff;
+}
+.banner-text p{
+    font-size: 14px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    color: #fff;
+    margin-top: 5px;
+}
+
+
+
+/* Banner css end */
+
+/* Service css start */
+#service-part{
+    width: 100%;
+    text-align: center;
+    padding: 80px 0;
+}
+.service-head{
+    margin-bottom: 70px;
+}
+.service-head h2{
+    font-size: 30px;
+    font-weight: 300;
+    font-family: 'Roboto Slab',sans-serif;
+    color: #444444;
+    margin-bottom: 20px;
+}
+.service-head p{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto',sans-serif;
+    color: #666666;
+}
+.service-inner-head h2{
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Roboto',sans-serif;
+    color: #666666;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+
+}
+.service-inner-main{
+    display: flex;
+    flex-wrap: wrap;
+}
+.service-col{
+    max-width: 31.61%;
+    margin-right: 30px;
+    float: left;
+    padding: 15px;
+    border: 1px solid rgb(0, 0, 0, .09);
+    overflow: hidden;
+    
+
+}
+.zoom{
+    width: 100%;
+    overflow: hidden;
+}
+.service-col .zoom img{
+    flex-grow: 1;
+    width: 100%;
+    max-width: 100%; 
+    cursor: pointer;
+    transform: scale(1);
+	transition: all linear .3s;
+    overflow: hidden;
+ 
+}
+.service-col .zoom img:hover{
+    transform: scale(1.3);
+}
+
+.service-col:last-child{
+    margin-right: 0;
+}
+.service-col h4{
+    font-size: 17px;
+    font-weight: 700;
+    font-family: 'Roboto Slab',sans-serif;
+    color: #444444;
+    margin-top: 20px;
+}
+.service-col p{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto',sans-serif;
+    color: #666666;
+    line-height: 22px;
+    margin: 10px;
+}
+/* Service css end */
+
+/* Gallery css start */
+#gallery-part{
+    width: 100%;
+    text-align: center;
+    padding: 80px 0;
+    background: #2c2c2c;
+    
+}
+.gallery-head{
+    display: inline-block;
+    position: relative;
+
+}
+.gallery-head::after {
+	top: 10px;
+	right: -110px;
+	content: '';
+	width: 100px;
+	height: 1px;
+	background: #535353;
+	position: absolute;
+}
+.gallery-head::before {
+	bottom: 38px;
+	right: -110px;
+	content: '';
+	width: 100px;
+	height: 1px;
+	background: #535353;
+	position: absolute;
+}
+.gallery-head h2{
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Roboto';
+    color: #d5d5d5;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    position: relative;
+    
+}
+.gallery-head h2::after {
+	top: 10px;
+	left: -110px;
+	content: '';
+	width: 100px;
+	height: 1px;
+	background: #535353;
+	position: absolute;
+}
+.gallery-head h2::before {
+	bottom: 8px;
+	left: -110px;
+	content: '';
+	width: 100px;
+	height: 1px;
+	background: #535353;
+	position: absolute;
+}
+.gallery-row{
+    display: flex;
+    padding-left: 15px;
+    
+ 
+}
+.gallery-col{
+    width: 25%;
+    float: left;
+    padding-right: 15px;
+}
+
+
+.gallery-row img{
+    width: 100%;
+    max-width: 100%;
+
+}
+#gallery-part a{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto';
+    text-transform: uppercase;
+    color: #a6a6a6;
+    margin-top: 40px;
+    padding: 16px 20px;
+    border: 1px solid #6b6b6b;
+    transition: all linear .5s;
+}
+#gallery-part a i{
+    margin-right: 7px;
+}
+#gallery-part a:hover{
+    color: #28b8d8;
+    border-color: #28b8d8;
+}
+/* Gallery css end */
+
+
+
+/* Journal css start */
+#journal-part{
+    width: 100%;
+    padding: 80px 0;
+    text-align: center;
+    background: #f9f9f9d1;
+}
+
+.journal-head{
+    margin-bottom: 30px;
+    display:inline-block;
+    position: relative;
+}
+.journal-head::after {
+	top: 10px;
+	right: -110px;
+	content: '';
+	width: 100px;
+	height: 1px;
+	background: #d9d9d9;
+	position: absolute;
+}
+.journal-head::before {
+	bottom: 8px;
+	right: -110px;
+	content: '';
+	width: 100px;
+	height: 1px;
+	background: #d9d9d9;
+	position: absolute;
+}
+.journal-head h2{
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Roboto';
+    color: #444444;
+    text-transform: uppercase;
+
+}
+.journal-head h2::after {
+	top: 10px;
+	left: -110px;
+	content: '';
+	width: 100px;
+	height: 1px;
+	background: #d9d9d9;
+	position: absolute;
+}
+.journal-head h2::before {
+	bottom: 8px;
+	left: -110px;
+	content: '';
+	width: 100px;
+	height: 1px;
+	background: #d9d9d9;
+	position: absolute;
+}
+.journalrow{
+    width: 100%;
+    display: flex;
+}
+.journal-col{
+    width: 30.77%;
+    float: left;
+    margin-right: 30px;
+    padding: 25px 0;
+    border: 1px solid rgb(0, 0, 0, .09);
+    background: #fff;
+}
+.journal-col:last-child{
+    margin-right: 0;
+}
+.journal-col img{
+    width: 100%;
+    max-width: 100%;
+}
+.post-head{
+    margin-bottom: 25px;
+}
+.post-head h3{
+    font-size: 17px;
+    font-weight: 700;
+    font-family: 'Roboto Slab';
+    color: #444444;
+    margin-bottom: 10px;
+}
+
+.post-head  h5{
+    font-size: 12px;
+    font-weight: 300;
+    font-family: 'Roboto';
+    color: #999999;
+}
+.post{
+    padding: 0 25px;
+}
+.post article{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto';
+    color: #666666;
+    margin:25px 0;
+    line-height: 22px;
+    text-align: left;
+}
+.post-bottom{
+    text-align: left;
+}
+.post-bottom a{
+   
+    font-size: 11px;
+    font-weight: 400;
+    font-family: 'Roboto';
+    color: #999999;
+    text-transform: uppercase;
+    padding: 4px;
+    display: inline-block;
+    position: relative;
+    transition: all linear .3s;
+ 
+}
+.post-bottom a:hover{
+    color: #28b8d8;
+}
+.post-bottom a::after{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 1px;
+    width: 100%;
+    content: '';
+    background: #28b8d8;
+}
+.post-bottom ul{
+    float: right;
+    display: flex;
+}
+.post-bottom ul li{
+    text-align: right;
+    margin-right: 4px;
+    font-size: 11px;
+    font-weight: 400;
+    font-family: 'Roboto';
+    color: #999999;
+    cursor: pointer;
+    
+}
+.post-bottom ul li:hover i{
+    color: #28b8d8;
+    
+
+}
+.post-bottom ul li i:last-child{
+    margin-right: 0;
+}
+/* Journal css end */
+
+
+
+/* About css start */
+#about-part{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 80px;
+    background: #f9f9f9d1;
+}
+.aboutme-col {
+	width: 48.719%;
+    margin-right: 30px;
+	float: left;
+}
+.aboutme-col:nth-child(2){
+    margin-right: 0;
+}
+.col-head{
+    width: 100%;
+    margin-bottom: 30px;
+}
+.col-head{
+    text-align: left;
+}
+.col-head h2{
+    font-size: 18px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    color: #000;
+    text-transform: uppercase;
+    text-align: left;
+    display: inline-block;
+    position: relative;
+
+}
+.col-head h2::after {
+	top: 10px;
+	right: -110px;
+	content: '';
+	width: 100px;
+	height: 1px;
+	background: #d9d9d9;
+	position: absolute;
+}
+.col-head h2::before {
+	bottom: 8px;
+	right: -110px;
+	content: '';
+	width: 100px;
+	height: 1px;
+	background: #d9d9d9;
+	position: absolute;
+}
+.about-content{
+    width: 100%;
+
+}
+.about-img{
+    width: 198px;
+    margin-right: 27px;
+    float: left;
+}
+.about-img img{
+    widows: 100%;
+    max-width: 100%;
+}
+.about-text {
+	width: 345px;
+	float: left;
+	text-align: left;
+}
+.about-text h4{
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Roboto Slab';
+    color: #666666;
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+.about-text p{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto';
+    color: #666666;
+    line-height: 24px;
+}
+.myservice-row{
+    width: 100%;
+    float: left;
+    
+}
+.myservice-content{
+    width: 100%;
+    height: 95px;
+    padding-bottom: 20px;
+}
+.myservice-icon{
+    width: 40px;
+  
+    float: left;
+    margin:0 6px;
+}
+.myservice-icon img{
+    width: 100%;
+    max-width: 100%;
+
+}
+.myservice-text{
+    width: 518px;
+    float: left;
+    padding: 0 20px;
+    text-align: left;
+
+}
+.myservice-text h3{
+    color: #444444;
+    font-size: 17px;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+.myservice-text p{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto';
+    color:#666666;
+    line-height: 22px;
+}
+/* About css end */
+
