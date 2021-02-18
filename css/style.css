@@ -6,7 +6,6 @@
 }
 ol, ul{
     list-style-type: none;
-
 }
 a{
     text-decoration: none;
@@ -18,14 +17,11 @@ a{
 .container{
     max-width: 1170px;
     margin: 0 auto;
-    
 }
 .clr{
     clear: both;
 }
 /* Common css end */
-
-
 
 /* Header css start */
 #menu-part{
@@ -36,8 +32,6 @@ a{
     left: 0;
     content: '';
     position: absolute;
-
-
 }
 .menu-cont{
     display: flex;
@@ -105,9 +99,8 @@ a{
     background-position: center !important;
     background-size: cover !important;
     background-attachment: fixed !important;
-    padding: 240px 0 250px 0 !important;
+    padding: 330px 0 250px 0 !important;
     text-align: center;
- 
 }
 .banner-text h1{
     font-size: 50px;
@@ -131,9 +124,6 @@ a{
     color: #fff;
     margin-top: 5px;
 }
-
-
-
 /* Banner css end */
 
 /* Service css start */
@@ -165,7 +155,6 @@ a{
     color: #666666;
     margin-bottom: 20px;
     text-transform: uppercase;
-
 }
 .service-inner-main{
     display: flex;
@@ -178,8 +167,6 @@ a{
     padding: 15px;
     border: 1px solid rgb(0, 0, 0, .09);
     overflow: hidden;
-    
-
 }
 .zoom{
     width: 100%;
@@ -198,7 +185,6 @@ a{
 .service-col .zoom img:hover{
     transform: scale(1.3);
 }
-
 .service-col:last-child{
     margin-right: 0;
 }
@@ -258,7 +244,6 @@ a{
     margin-bottom: 30px;
     text-transform: uppercase;
     position: relative;
-    
 }
 .gallery-head h2::after {
 	top: 10px;
@@ -281,16 +266,12 @@ a{
 .gallery-row{
     display: flex;
     padding-left: 15px;
-    
- 
 }
 .gallery-col{
     width: 25%;
     float: left;
     padding-right: 15px;
 }
-
-
 .gallery-row img{
     width: 100%;
     max-width: 100%;
@@ -315,8 +296,6 @@ a{
     border-color: #28b8d8;
 }
 /* Gallery css end */
-
-
 
 /* Journal css start */
 #journal-part{
@@ -404,7 +383,6 @@ a{
     color: #444444;
     margin-bottom: 10px;
 }
-
 .post-head  h5{
     font-size: 12px;
     font-weight: 300;
@@ -427,7 +405,6 @@ a{
     text-align: left;
 }
 .post-bottom a{
-   
     font-size: 11px;
     font-weight: 400;
     font-family: 'Roboto';
@@ -437,7 +414,6 @@ a{
     display: inline-block;
     position: relative;
     transition: all linear .3s;
- 
 }
 .post-bottom a:hover{
     color: #28b8d8;
@@ -463,19 +439,14 @@ a{
     font-family: 'Roboto';
     color: #999999;
     cursor: pointer;
-    
 }
 .post-bottom ul li:hover i{
     color: #28b8d8;
-    
-
 }
 .post-bottom ul li i:last-child{
     margin-right: 0;
 }
 /* Journal css end */
-
-
 
 /* About css start */
 #about-part{
@@ -604,3 +575,93 @@ a{
 }
 /* About css end */
 
+/* Footer css start */
+#footer-part{
+    width: 100%;
+    text-align: left;
+}
+.footer-top{
+    width: 100%;
+    background: #373737;
+    padding:68px 0;
+}
+.footer-col{
+    width: 25%;
+    padding-right: 30px;
+    float: left;
+}
+.footer-col h3{
+    font-size: 16px;
+    font-weight: 700;
+    color: #f0f0f0;
+    font-family: 'Roboto';
+    margin-bottom: 20px;
+}
+.footer-col p{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto';
+    color: #cacaca;
+    line-height: 24px;
+
+}
+.first-ft-col p{
+    margin-bottom: 33px;
+}
+.first-ft-col a{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto';
+    color: #cacaca;
+    margin-bottom: 10px;
+}
+.first-ft-col .address span{
+    padding-left: 15px;
+    margin-top: 5px;
+    
+}
+.address .city{
+    margin-left: 14px;
+    display: block;
+}
+
+.footer-col .call span{
+    padding-left: 15px;
+}
+.footer-col .mail span{
+    padding-left: 15px;
+}
+.second-ft-col p span{
+    padding-top: 33px;
+    display: block;
+}
+.third-ft-col p{
+    padding-bottom: 22px;
+}
+.third-ft-col p:last-child{
+    padding-bottom: 0;
+}
+.third-ft-col p span{
+    font-size: 12px;
+    font-weight: 400px;
+    font-family: 'Roboto';
+    color: #929292;
+    display: block;
+}
+.fourth-ft-col p span{
+    display: block;
+    padding-top: 33px;
+}
+
+.footer-bottom{
+    width: 100%;
+    background: #333333;
+    padding:40px 0 37px 0;
+}
+.footer-bottom p{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto';
+    color: #cacaca;
+}
+/* Footer css end */
